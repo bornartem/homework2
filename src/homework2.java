@@ -9,9 +9,9 @@ public class homework2 {
         System.out.println(dog2-dog3); // сначала понял, что уже к полученному результату нужно прибавлять следующий
         var cat= 3.6;
         System.out.println(cat);
-        cat = cat + 4;
+        cat +=4;
         System.out.println(cat); // далее уже согласно заданию.
-        cat = cat - 1.6;
+        cat -=1.6;
         System.out.println(cat);
         var paper = 763789;
         System.out.println(paper);
@@ -22,10 +22,10 @@ public class homework2 {
 
         var friend = 19;
         System.out.println(friend);
-        var friend1 = friend+2;
-        System.out.println(friend1);
-        var friend3 = friend1/7;
-        System.out.println(friend3);
+        friend +=2;
+        System.out.println(friend);
+        friend /=7;
+        System.out.println(friend);
 
         var frog = 3.5;
         System.out.println(frog);
